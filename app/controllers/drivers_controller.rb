@@ -13,9 +13,7 @@ class DriversController < ApplicationController
     # render text: params.inspect
     # do this to know which params to require below
 
-    @driver = Driver.new(    
-    params.require(:driver).permit(:first_name, :last_name)
-    )
+    @driver = Driver.new(    driver_params    )
     
     if @driver.save
       redirect_to drivers_url
@@ -24,6 +22,10 @@ class DriversController < ApplicationController
     end
   end
 
+# to DRY
+def driver_params
+    params.require(:driver).permit(:first_name, :last_name)  
+end
 
 
 end

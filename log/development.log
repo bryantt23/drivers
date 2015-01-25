@@ -840,3 +840,41 @@ Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for 
 
 
 Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:01:53 -0800
+
+
+Started POST "/drivers" for ::1 at 2015-01-25 02:18:05 -0800
+Processing by DriversController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7dQqM2Q2Rt5j8jFwAy9QB32i4M6GDQdVXGX3WJROGL2aCRKAT2qOI1IMKKeRo2tjpS4hIMWtgKoVumbUuaIMmQ==", "driver"=>{"first_name"=>"bee", "last_name"=>"teee"}, "commit"=>"Create Driver"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "drivers" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "bee"], ["last_name", "teee"], ["created_at", "2015-01-25 10:18:05.645104"], ["updated_at", "2015-01-25 10:18:05.645104"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/drivers
+Completed 302 Found in 69ms (ActiveRecord: 18.0ms)
+
+
+Started GET "/drivers" for ::1 at 2015-01-25 02:18:05 -0800
+Processing by DriversController#index as HTML
+  [1m[35mDriver Load (1.0ms)[0m  SELECT "drivers".* FROM "drivers"
+  Rendered drivers/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 246ms (Views: 242.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:18:06 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:18:06 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:18:06 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:18:06 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:18:06 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:18:06 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:18:06 -0800
