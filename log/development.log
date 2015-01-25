@@ -886,3 +886,879 @@ Migrating to CreateLicenses (20150125102220)
   [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150125102220"]]
   [1m[36m (17.0ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/drivers" for ::1 at 2015-01-25 02:29:31 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DriversController#index as HTML
+  [1m[35mDriver Load (1.0ms)[0m  SELECT "drivers".* FROM "drivers"
+  Rendered drivers/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 829ms (Views: 340.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:29:32 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:29:32 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:29:32 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:29:32 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:29:32 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:29:32 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:29:32 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:29:34 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 36ms
+
+SyntaxError (C:/Users/bryantt23/Documents/GitHub/drivers/app/views/drivers/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting keyword_end
+C:/Users/bryantt23/Documents/GitHub/drivers/app/views/drivers/new.html.erb:30: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/drivers/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/drivers/new.html.erb:30: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (10.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (19.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (232.0ms)
+
+
+Started POST "/drivers/console/repl_sessions/f98b2fb61f8d4d11429a6c3737203392/trace" for ::1 at 2015-01-25 02:29:50 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:30:55 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 258ms (Views: 255.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:30:56 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:30:56 -0800
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:30:56 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:30:56 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:30:56 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:30:56 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:30:56 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:32:08 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 353ms (Views: 350.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:32:08 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:32:08 -0800
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:32:08 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:32:08 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:32:08 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:32:08 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:32:08 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:32:10 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 261ms (Views: 258.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:32:11 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:32:11 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:32:11 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:32:11 -0800
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:32:11 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:32:11 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:32:11 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:33:00 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 335ms (Views: 333.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:33:00 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:33:00 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:33:00 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:33:00 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:33:00 -0800
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:33:00 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:33:00 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:35:09 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 274ms (Views: 233.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:35:10 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:35:10 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:35:10 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:35:10 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:35:10 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:35:10 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:35:10 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:41:15 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (1164.1ms)
+Completed 200 OK in 2028ms (Views: 1807.1ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:41:19 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:41:19 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:41:19 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:41:19 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:41:19 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:41:19 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:41:19 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:43:36 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 2540ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x698b668>):
+  app/controllers/drivers_controller.rb:10:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (11.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (21.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (431.0ms)
+
+
+Started POST "/drivers/console/repl_sessions/b0f4647e3827e40796b1c3db2be50823/trace" for ::1 at 2015-01-25 02:43:47 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:44:54 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x5744c28>):
+  app/controllers/drivers_controller.rb:10:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (15.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (2237.1ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:45:03 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x58e5c28>):
+  app/controllers/drivers_controller.rb:10:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (15.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (161.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:46:23 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 122ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6a90ea8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (133.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:46:28 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x59e6920>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (18.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (200.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:47:05 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 132ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6ae3300>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (153.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:47:51 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 117ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6b18da8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (52.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (216.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:49:31 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x5a66738>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (37.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (209.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:51:18 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x674dcd8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (117.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (251.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:51:40 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 457ms (Views: 385.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 02:51:41 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 02:51:41 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 02:51:41 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 02:51:41 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 02:51:41 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 02:51:41 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 02:51:41 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:53:47 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 246ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6b70240>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (165.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 02:58:32 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 19ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x67754d0>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (24.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (275.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:00:39 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 74ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6ba2220>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (145.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:00:43 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x76e9588>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (23.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (180.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:04:54 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 333ms (Views: 287.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 03:04:54 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 03:04:54 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 03:04:54 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 03:04:54 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 03:04:54 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 03:04:54 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 03:04:54 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:07:03 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 109ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6c3b100>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (138.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:08:24 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 385ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x68a0f30>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (12.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (17.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (231.0ms)
+  [1m[36m (46.0ms)[0m  [1mCREATE TABLE "drivers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (14.0ms)[0m  CREATE TABLE "licenses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" varchar, "state" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (34.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (13.0ms)[0m  select sqlite_version(*)
+  [1m[36m (15.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (1.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (16.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150125102220')[0m
+  [1m[35m (14.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150125091703')
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:20:48 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 101ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x66801a8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (137.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:21:02 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6938e08>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (91.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (196.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:21:09 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x54db300>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (22.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (23.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (335.0ms)
+
+
+Started GET "/drivers/" for ::1 at 2015-01-25 03:21:41 -0800
+Processing by DriversController#index as HTML
+  [1m[35mDriver Load (0.0ms)[0m  SELECT "drivers".* FROM "drivers"
+  Rendered drivers/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 716ms (Views: 713.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 03:21:42 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 03:21:42 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 03:21:42 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 03:21:42 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 03:21:42 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 03:21:42 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 03:21:42 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:21:45 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x662a7f8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (14.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (158.0ms)
+
+
+Started GET "/drivers/index" for ::1 at 2015-01-25 03:24:52 -0800
+
+AbstractController::ActionNotFound (The action 'show' could not be found for DriversController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (1.0ms)
+
+
+Started GET "/drivers" for ::1 at 2015-01-25 03:24:56 -0800
+Processing by DriversController#index as HTML
+  [1m[36mDriver Load (1.0ms)[0m  [1mSELECT "drivers".* FROM "drivers"[0m
+  Rendered drivers/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 402ms (Views: 397.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 03:24:57 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 03:24:57 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 03:24:57 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 03:24:57 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 03:24:57 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 03:24:57 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 03:24:57 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:24:59 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x5402478>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (14.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (202.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:25:01 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x7b58548>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (144.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:25:04 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6af2df8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (8.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (16.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (181.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:25:06 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x57e57b8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (14.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (20.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (240.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:32:04 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 101ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x67b9810>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (130.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:32:21 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 19ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x590e5d8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (6.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (131.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:32:26 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (695.0ms)
+Completed 200 OK in 923ms (Views: 879.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 03:32:27 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 03:32:27 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 03:32:27 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 03:32:27 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 03:32:27 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 03:32:27 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 03:32:27 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:32:46 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 102ms
+
+NameError (undefined local variable or method `driver' for #<DriversController:0x6682a28>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (228.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:36:09 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 67ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x67da8d0>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (127.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:37:47 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 82ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x6853b00>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (7.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (110.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (457.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:39:13 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 58ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x687b0e8>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (152.0ms)
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 03:41:40 -0800
+Processing by DriversController#new as HTML
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `val' for #<Arel::Nodes::BindParam:0x5a27030>):
+  app/controllers/drivers_controller.rb:9:in `new'
+
+
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (94.0ms)

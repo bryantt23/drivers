@@ -3,11 +3,25 @@
 <ul>
 <% @drivers.each do |driver| %>
 
+<!-- 
 <li><%=driver.first_name %>
-	<%=driver.last_name %>
+	<%=driver.last_name %> 
+</li> -->
 
+<li>
+	<%=driver.name %>
+	<% if driver.license.present?%>
+	
+	<%=driver.license.number %>
+	<%=driver.license.state %>
+	<% end %>
+	
 </li>
-
+ 
 <% end %>
+<%= link_to "Delete", driver_path(driver), method: :delete,
+confirm: 'Are you sure?' %>
 
 </ul>
+
+<%= link_to "New Driver", new_driver_path %>
