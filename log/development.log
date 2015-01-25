@@ -521,3 +521,111 @@ Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for 
 
 
 Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 01:38:11 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 01:43:16 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (527.0ms)
+Completed 200 OK in 885ms (Views: 862.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 01:43:17 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 01:43:17 -0800
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 01:43:17 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 01:43:17 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 01:43:17 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 01:43:17 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 01:43:17 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 01:45:55 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (1501.1ms)
+Completed 200 OK in 1782ms (Views: 1779.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 01:45:57 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 01:45:57 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 01:45:57 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 01:45:57 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 01:45:57 -0800
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 01:45:57 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 01:45:57 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 01:46:18 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 247ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 01:46:18 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 01:46:18 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 01:46:18 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 01:46:18 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 01:46:18 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 01:46:18 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 01:46:18 -0800
+
+
+Started GET "/drivers/new" for ::1 at 2015-01-25 01:46:49 -0800
+Processing by DriversController#new as HTML
+  Rendered drivers/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 256ms (Views: 253.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/drivers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-01-25 01:46:50 -0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-01-25 01:46:50 -0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-01-25 01:46:50 -0800
+
+
+Started GET "/assets/application-e93ffa4c2db8481b68b569045c04c777.js?body=1" for ::1 at 2015-01-25 01:46:50 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-01-25 01:46:50 -0800
+
+
+Started GET "/assets/turbolinks-686d2bf7d9d383528c901c64187a8c31.js?body=1" for ::1 at 2015-01-25 01:46:50 -0800
+
+
+Started GET "/assets/drivers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-01-25 01:46:50 -0800
