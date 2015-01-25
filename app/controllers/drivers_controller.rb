@@ -3,5 +3,6 @@ class DriversController < ApplicationController
   end
 
   def new
+    @driver = Driver.new
   end
 end
